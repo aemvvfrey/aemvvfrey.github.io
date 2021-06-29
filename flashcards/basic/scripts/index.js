@@ -21,4 +21,15 @@ let i = 0;
 while (i < myFlashcards.length)  {
   console.log(myFlashcards[i].question + ' ' + myFlashcards[i].answer);
   ++i
+ 
+// In iteration loop display question from object
+const questionObject = {
+  question: 'What is my question?',
+  answer: 'This is my answer',
+  displayQuestion: function () {
+ 
+  alert( this.question );
+ 
+  }
+}
 }
